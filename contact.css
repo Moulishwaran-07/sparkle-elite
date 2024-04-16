@@ -93,11 +93,11 @@
     font-family:AAkayaTelivigalaRegular;
     font-size: 1.1rem;
 }
-input[type="checkbox"]
+/* input[type="checkbox"]
 {
     font-family:AAkayaTelivigalaRegular;
     color: aqua;
-}
+} */
 .head_office
 {
     display: grid;
@@ -140,29 +140,53 @@ margin-left: 250px;
 }
 @media all and (max-width:500px)
 {
+   
+    .contact_name
+    {
+        margin-left: 600px;
+        margin-top: -180px;
+    }
     .head_office
     {
-        margin-left: -120px;
+        margin-left: -200px;
     }
-    
-.contact_banner
-{
-    height: 100%;
-    width: 80%;
-    margin: auto;
-    position: relative;
+    .head_pic img
+    {
+        margin-left: 150px;
+    }
+    .head_add
+    {
+        margin-top: 8px;
+        margin-left: 350px;
+    }
+    .form_design
+    {
+        margin-left: 450px;
+    }
 }
-.contact_banner img
+@media all and (min-width:750px) and (max-width:1000px){
+
+
+    .contact_name
+    {
+        margin-left: 350px;
+        margin-top: -180px;
+    }
+    .moving_page
 {
-    height: 900px;
-    width: 100%;
-    margin-top: 60px;
+    margin-left:250px;
+}
+.head_pic img
+{
+    margin-left: 10px;
+}
+.head_add
+{
+    margin-left: -20px;
+    margin-top: 5px;
 }
 .form_design
 {
-    position: absolute;
-    margin-top: -850px;
-    margin-left: 450px;
-    font-family:AAkayaTelivigalaRegular;
+    margin-left: 200px;
 }
 }

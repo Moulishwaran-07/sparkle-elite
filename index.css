@@ -196,6 +196,13 @@ font-family: GraduateRegular;
     margin-top: 100px;
     margin-left: 40%;
 }
+@media all and (max-width:500px)
+{
+    .design,.design1,.design2
+    {
+        margin-left: 70px;
+    }
+}
 
 @media all and (min-width:750px) and (max-width:1000px){
 

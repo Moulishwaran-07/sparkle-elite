@@ -155,7 +155,10 @@
     font-weight: 500;
     margin-top: 100px;
 }
-
+.wedd1 img
+{
+   
+}
 @media all and (max-width:500px)
 {
     .wedding_gallery
@@ -167,92 +170,92 @@
     {
         width: 60%;
         height: 400px;
-        margin-left: 200px;
+        margin-left: 250px;
     }
     .wedd2 img
     {
         width: 60%;
         height: 400px;
-        margin-left: 200px;
+        margin-left: 250px;
         margin-top: 100px;
     }
     .wedd3 img
     {
         width: 60%;
         height: 400px;
-        margin-left: 200px;
+        margin-left: 250px;
         margin-top: 100px;
     }
     .wedd4 img
     {
         width: 60%;
         height: 400px;
-        margin-left: 200px;
+        margin-left: 250px;
         margin-top: 100px;
     }
     .wedd5 img
     {
         width: 60%;
         height: 400px;
-        margin-left: 200px;
+        margin-left: 250px;
         margin-top: 100px;
     }
     .wedd6 img
     {
         width: 60%;
         height: 400px;
-        margin-left: 200px;
+        margin-left: 250px;
         margin-top: 100px;
     }
     .wedd7 img
     {
         width: 60%;
         height: 400px;
-        margin-left: 200px;
+        margin-left: 250px;
         margin-top: 100px;
     }
     .wedd8 img
     {
         width: 60%;
         height: 400px;
-        margin-left: 200px;
+        margin-left: 250px;
         margin-top: 100px;
     }
     .wedd9 img
     {
         width: 60%;
         height: 400px;
-        margin-left: 200px;
+        margin-left: 250px;
         margin-top: 100px;
     }
     .wedd10 img
     {
         width: 60%;
         height: 400px;
-        margin-left: 200px;
+        margin-left: 250px;
         margin-top: 100px;
     }
     .wedd11 img
     {
         width: 60%;
         height: 400px;
-        margin-left: 200px;
+        margin-left: 250px;
         margin-top: 100px;
     }
     .wedd12 img
     {
         width: 60%;
         height: 400px;
-        margin-left: 200px;
+        margin-left: 250px;
         margin-top: 100px;
     }
     .moving_page
 {
-    margin-left: 300px;
+    margin-left: 500px;
 }
 .background_banner h1
 {
-    margin-left: 330px;
+    margin-left: 480px;
     margin-top: -180px;
 }
 }

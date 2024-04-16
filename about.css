@@ -106,22 +106,20 @@ span
 
 .about_page p {
     text-align: center;
-    font-size: .7rem;
+    font-size: 1.2rem;
     margin-top: 60px;
     font-weight: 700;
     color: rgb(32, 26, 26);
     word-spacing: 5px;
 }
 
-
 .moving_page
 {
-    margin-top: 100px;
-    margin-left: 300px;
+    margin-left: 500px;
 }
 .background_banner h1
 {
-    margin-left: 350px;
+    margin-left: 480px;
     margin-top: -180px;
 }
 
@@ -136,5 +134,37 @@ span
     .moving_page
 {
     margin-left:250px;
+}
+.about_background
+{
+    position: relative;
+    height: 100%;
+    width: 85%;
+    margin: auto;
+}
+     .about_background img
+{
+    height: 100%;
+    width: 100%;
+    margin-top: 200px;
+    border-radius: 20px;
+
+}
+.about_page
+{
+    height: 500px;
+    width: 70%;
+    position:absolute;
+    margin-top: -88%;
+    margin-left: 130px;
+}
+
+.about_page p {
+    text-align: center;
+    font-size: .7rem;
+    margin-top: 60px;
+    font-weight: 700;
+    color: rgb(32, 26, 26);
+    word-spacing: 5px;
 }
 }

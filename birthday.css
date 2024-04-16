@@ -293,18 +293,18 @@
     }
     .moving_page
     {
-        margin-left: 460px;
+        margin-left: 500px;
     }
     .background_banner h1
     {
-        margin-left: 350px;
+        margin-left: 480px;
         margin-top: -180px;
     }
 }
 @media all and (min-width:750px) and (max-width:1000px){
     .background_banner h1
     {
-        margin-left: 330px;
+        margin-left: 300px;
         margin-top: -180px;
     }
     .moving_page

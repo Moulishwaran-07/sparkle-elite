@@ -36,6 +36,7 @@
     
     height: 400px;
     width: 300px; 
+    margin-left: 150px;
 }
 .foot_2 h6
 {
@@ -75,6 +76,7 @@
     
     height: 400px;
     width: 300px;
+    margin-left: 150px;
 }
 .foot_3 h6
 {
@@ -105,6 +107,7 @@
 {
     height: 400px;
     width: 300px;
+    margin-left: 150px;
 }
 .foot_4 h6
 {
@@ -180,6 +183,7 @@
         grid-template-columns: 1fr;
         height: 60%;
         border-color: rgb(255, 244, 243);
+      
     }
     .foot_3
     {
