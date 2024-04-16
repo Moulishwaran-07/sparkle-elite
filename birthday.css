@@ -1,0 +1,360 @@
+@font-face {
+    font-family: GraduateRegular;
+    src: url(font/GraduateRegular.ttf);
+}
+.birthday_banner {
+    height: 100%;
+    width: 80%;
+    margin: auto;
+}
+
+.birthday_banner img {
+    height: 500px;
+    width: 100%;
+    margin-top: 30px;
+}
+.background_banner
+{
+    height: 100%;
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+.background_banner img
+{
+    height: 300px;
+    width: 100%;
+    margin-top: 60px;
+}
+
+
+.background_banner h1 {
+    font-size: 2rem;
+    text-align: center;
+    color:palevioletred;
+    font-weight: 500;
+    position: absolute;
+    margin-top: -200px;
+    margin-left:520px ;
+    font-family: GraduateRegular;
+}
+
+.birthday_page p {
+    text-align: center;
+    font-size: 1.1rem;
+    margin-top: 100px;
+    font-weight: 500;
+    word-spacing: 8px;
+}
+
+.birthday_gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 150px;
+    row-gap: 50px;
+    cursor: pointer;
+}
+
+.birth1 img {
+    height: 250px;
+    width: 300px;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    margin-left: 50px;
+}
+
+.birth2 img {
+    height: 250px;
+    width: 300px;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    margin-left: 50px;
+}
+
+.birth3 img {
+    height: 250px;
+    width: 300px;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    margin-left: 50px;
+}
+
+.birth4 img {
+    height: 250px;
+    width: 300px;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    margin-left: 50px;
+}
+
+.birth5 img {
+    height: 250px;
+    width: 300px;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    margin-left: 50px;
+
+}
+
+.birth6 img {
+    height: 250px;
+    width: 300px;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    margin-left: 50px;
+
+}
+
+.birth7 img {
+    height: 250px;
+    width: 300px;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    margin-left: 50px;
+
+}
+
+.birth8 img {
+    height: 250px;
+    width: 300px;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    margin-left: 50px;
+
+}
+
+.birth9 img {
+    height: 250px;
+    width: 300px;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    margin-left: 50px;
+}
+
+.birth10 img {
+    height: 250px;
+    width: 300px;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    margin-left: 50px;
+}
+
+.birth11 img {
+    height: 250px;
+    width: 300px;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    margin-left: 50px;
+}
+
+.birth12 img {
+    height: 250px;
+    width: 300px;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    margin-left: 50px;
+}
+
+.cake_page {
+    margin-top: 100px;
+}
+
+.cake_page h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(244, 172, 78);
+    font-weight: 500;
+}
+
+.cake_pics {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 100px;
+    column-gap: 50px;
+    cursor: pointer;
+}
+
+.cake1 img {
+    height: 300px;
+    width: 200px;
+    margin-left: 80px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.cake2 img {
+    height: 300px;
+    width: 200px;
+    margin-left: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.cake3 img {
+    height: 300px;
+    width: 200px;
+    margin-left: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.cake4 img {
+    height: 300px;
+    width: 200px;
+    margin-left: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.moving_page {
+    margin-top: 100px;
+    margin-left: 40%;
+}
+.birthday_info
+{
+    text-align: center;
+    font-size: 1.1rem;
+    margin-top: 30px;
+    font-weight: 500;
+    margin-top: 100px;
+}
+@media all and (max-width:500px)
+{
+    .birthday_gallery 
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .birth1 img
+    {
+        width: 60%;
+        height: 400px;
+        margin-left: 250px;
+    }
+    .birth2 img
+    {
+        width: 60%;
+        height: 400px;
+        margin-left: 250px;
+        margin-top: 100px;
+    }
+    .birth3 img
+    {
+        width: 60%;
+        height: 400px;
+        margin-left: 250px;
+        margin-top: 100px;
+    }
+    .birth4 img
+    {
+        width: 60%;
+        height: 400px;
+        margin-left: 250px;
+        margin-top: 100px;
+    }
+    .birth5 img
+    {
+        width: 60%;
+        height: 400px;
+        margin-left: 250px;
+        margin-top: 100px;
+    }
+    .birth6 img
+    {
+        width: 60%;
+        height: 400px;
+        margin-left: 250px;
+        margin-top: 100px;
+    }
+    .birth7 img
+    {
+        width: 60%;
+        height: 400px;
+        margin-left: 250px;
+        margin-top: 100px;
+    }
+    .birth8 img
+    {
+        width: 60%;
+        height: 400px;
+        margin-left: 250px;
+        margin-top: 100px;
+    }
+    .birth9 img
+    {
+        width: 60%;
+        height: 400px;
+        margin-left: 250px;
+        margin-top: 100px;
+    }
+    .birth10 img
+    {
+        width: 60%;
+        height: 400px;
+        margin-left: 250px;
+        margin-top: 100px;
+    }
+    .birth11 img
+    {
+        width: 60%;
+        height: 400px;
+        margin-left: 250px;
+        margin-top: 100px;
+    }
+    .birth12 img
+    {
+        width: 60%;
+        height: 400px;
+        margin-left: 250px;
+        margin-top: 100px;
+    }
+    .moving_page
+    {
+        margin-left: 460px;
+    }
+    .background_banner h1
+    {
+        margin-left: 350px;
+        margin-top: -180px;
+    }
+}
+@media all and (min-width:750px) and (max-width:1000px){
+    .background_banner h1
+    {
+        margin-left: 330px;
+        margin-top: -180px;
+    }
+    .moving_page
+{
+    margin-left:250px;
+}
+
+    .birthday_gallery
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .birth1 img,.birth2 img,.birth3 img,.birth4 img,.birth5 img,.birth6 img,.birth7 img,.birth8 img,.birth9 img,.birth10 img,.birth11 img,.birth12 img
+    {
+        height: 350px;
+        width: 550px;
+        margin-left: 150px;
+    }
+    .cake_pics {
+        display: grid;
+        grid-template-columns: 1fr;
+
+}
+.cake1 img
+{
+    height: 400px;
+    width: 300px;
+    margin-left: 270px;
+}
+.cake2 img
+{
+    height: 400px;
+    width: 300px;
+    margin-left: 270px;
+    margin-top: 50px;
+}
+.cake3 img
+{
+    height: 400px;
+    width: 300px;
+    margin-left: 270px;
+    margin-top: 50px;
+}
+.cake4 img
+{
+    height: 400px;
+    width: 300px;
+    margin-left: 270px;
+    margin-top: 50px;
+}
+
+}

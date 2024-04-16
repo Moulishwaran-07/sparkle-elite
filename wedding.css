@@ -1,0 +1,283 @@
+@font-face {
+    font-family: GraduateRegular;
+    src: url(font/GraduateRegular.ttf);
+}
+.wedding_banner
+{
+    height: 100%;
+    width: 80%;
+    margin: auto;
+}
+.wedding_banner img
+{
+    height: 500px;
+    width: 100%;
+    margin-top: 30px;
+}
+.background_banner
+{
+    height: 100%;
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+.background_banner img
+{
+    height: 300px;
+    width: 100%;
+    margin-top: 60px;
+}
+
+.background_banner h1
+{
+    font-size: 2rem;
+    text-align: center;
+    color: palevioletred;
+    font-weight: 500;
+    position: absolute;
+    margin-top: -200px;
+    margin-left:520px ;
+    font-family: GraduateRegular;
+}
+.wedding_page p
+{
+    text-align: center;
+    font-size: 1.1rem;
+    margin-top: 100px;
+    font-weight: 500;
+    word-spacing: 8px;
+}
+.wedding_gallery
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 150px;
+    row-gap: 50px;
+    cursor: pointer;
+}
+.wedd1 img
+{
+    height: 250px;
+    width: 300px;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    margin-left: 50px;
+}
+.wedd2 img
+{
+    height: 250px;
+    width: 300px;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    margin-left: 50px;
+}
+.wedd3 img
+{
+    height: 250px;
+    width: 300px;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    margin-left: 50px;
+}
+.wedd4 img
+{
+    height: 250px;
+    width: 300px;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    margin-left: 50px;
+}
+.wedd5 img
+{
+    height: 250px;
+    width: 300px;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    margin-left: 50px;
+    
+}
+.wedd6 img
+{
+    height: 250px;
+    width: 300px;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    margin-left: 50px;
+    
+}
+.wedd7 img
+{
+    height: 250px;
+    width: 300px;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    margin-left: 50px;
+    
+}
+.wedd8 img
+{
+    height: 250px;
+    width: 300px;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    margin-left: 50px;
+    
+}
+.wedd9 img
+{
+    height: 250px;
+    width: 300px;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    margin-left: 50px;
+}
+.wedd10 img
+{
+    height: 250px;
+    width: 300px;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    margin-left: 50px;
+}
+.wedd11 img
+{
+    height: 250px;
+    width: 300px;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    margin-left: 50px;
+}
+.wedd12 img
+{
+    height: 250px;
+    width: 300px;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    margin-left: 50px;
+}
+.moving_page {
+    margin-top: 100px;
+    margin-left: 40%;
+}
+.wedding_info
+{
+    text-align: center;
+    font-size: 1.1rem;
+    margin-top: 30px;
+    font-weight: 500;
+    margin-top: 100px;
+}
+
+@media all and (max-width:500px)
+{
+    .wedding_gallery
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .wedd1 img
+    {
+        width: 60%;
+        height: 400px;
+        margin-left: 200px;
+    }
+    .wedd2 img
+    {
+        width: 60%;
+        height: 400px;
+        margin-left: 200px;
+        margin-top: 100px;
+    }
+    .wedd3 img
+    {
+        width: 60%;
+        height: 400px;
+        margin-left: 200px;
+        margin-top: 100px;
+    }
+    .wedd4 img
+    {
+        width: 60%;
+        height: 400px;
+        margin-left: 200px;
+        margin-top: 100px;
+    }
+    .wedd5 img
+    {
+        width: 60%;
+        height: 400px;
+        margin-left: 200px;
+        margin-top: 100px;
+    }
+    .wedd6 img
+    {
+        width: 60%;
+        height: 400px;
+        margin-left: 200px;
+        margin-top: 100px;
+    }
+    .wedd7 img
+    {
+        width: 60%;
+        height: 400px;
+        margin-left: 200px;
+        margin-top: 100px;
+    }
+    .wedd8 img
+    {
+        width: 60%;
+        height: 400px;
+        margin-left: 200px;
+        margin-top: 100px;
+    }
+    .wedd9 img
+    {
+        width: 60%;
+        height: 400px;
+        margin-left: 200px;
+        margin-top: 100px;
+    }
+    .wedd10 img
+    {
+        width: 60%;
+        height: 400px;
+        margin-left: 200px;
+        margin-top: 100px;
+    }
+    .wedd11 img
+    {
+        width: 60%;
+        height: 400px;
+        margin-left: 200px;
+        margin-top: 100px;
+    }
+    .wedd12 img
+    {
+        width: 60%;
+        height: 400px;
+        margin-left: 200px;
+        margin-top: 100px;
+    }
+    .moving_page
+{
+    margin-left: 300px;
+}
+.background_banner h1
+{
+    margin-left: 330px;
+    margin-top: -180px;
+}
+}
+@media all and (min-width:750px) and (max-width:1000px){
+
+    .background_banner h1
+    {
+        margin-left: 330px;
+        margin-top: -180px;
+    }
+    .moving_page
+{
+    margin-left:250px;
+}
+
+    .wedding_gallery
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .wedd1 img,.wedd2 img,.wedd3 img,.wedd4 img,.wedd5 img,.wedd6 img,.wedd7 img,.wedd8 img,.wedd9 img,.wedd10 img,.wedd11 img,.wedd12 img
+    {
+        height: 350px;
+        width: 550px;
+        margin-left: 150px;
+    }
+}

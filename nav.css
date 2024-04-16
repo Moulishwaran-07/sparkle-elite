@@ -1,0 +1,57 @@
+@font-face {
+    font-family: ThyssenJItalic;
+    src: url(font/ThyssenJItalic.TTF);
+}
+.brand_logo {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.brand_logo img {
+    height: 100px;
+    width: 300px;
+
+}
+
+.navbar {
+    margin-top: 50px;
+   
+
+}
+
+#navbarSupportedContent ul {
+   margin: auto;
+}
+.nav-item
+{
+   
+    padding-left: 60px;
+}
+
+#navbarSupportedContent ul li {
+    font-size: 1.4rem;
+    font-family: ThyssenJItalic;
+    font-weight: 700;
+    
+}
+
+.banner {
+    margin-top: 30px;
+}
+.d-block
+{
+    width: 80%;
+    height: 600px;
+}
+
+
+@media all and (max-width:500px){
+.navbar
+{
+width: 100%;
+
+}
+}

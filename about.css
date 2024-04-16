@@ -1,0 +1,140 @@
+@font-face {
+    font-family: GraduateRegular;
+    src: url(font/GraduateRegular.ttf);
+}
+.background_banner
+{
+    height: 100%;
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+.background_banner img
+{
+    height: 300px;
+    width: 100%;
+    margin-top: 60px;
+}
+
+.background_banner h1
+{
+    font-size: 2.5rem;
+    text-align: center;
+    color:palevioletred;
+    font-weight: 500;
+    position: absolute;
+    margin-top: -200px;
+    margin-left:520px ;
+    font-family: GraduateRegular;
+}
+.about_banner
+{
+    height: 100%;
+    width: 80%;
+    margin: auto;
+}
+.about_banner img
+{
+    height: 500px;
+    width: 100%;
+   margin-top: 30px;
+}
+.about_background
+{
+    position: relative;
+    height: 100%;
+    width: 75%;
+    margin: auto;
+}
+.about_background img
+{
+    height: 900px;
+    width: 100%;
+    margin-top: 200px;
+    border-radius: 20px;
+}
+.about_page
+{
+    height: 600px;
+    width: 70%;
+    position:absolute;
+    margin-top: -880px;
+    margin-left: 230px;
+}
+
+.about_page p {
+    text-align: center;
+    font-size: 1.1rem;
+    margin-top: 60px;
+    font-weight: 700;
+    color: rgb(32, 26, 26);
+    word-spacing: 5px;
+}
+span
+{
+    color: maroon;
+}
+.moving_page {
+    margin-top: 100px;
+    margin-left: 40%;
+}
+@media all and (max-width:500px)
+{
+    .about_background
+{
+    position: relative;
+    height: 100%;
+    width: 85%;
+    margin: auto;
+}
+     .about_background img
+{
+    height: 100%;
+    width: 100%;
+    margin-top: 200px;
+    border-radius: 20px;
+
+}
+.about_page
+{
+    height: 500px;
+    width: 70%;
+    position:absolute;
+    margin-top: -88%;
+    margin-left: 160px;
+}
+
+.about_page p {
+    text-align: center;
+    font-size: .7rem;
+    margin-top: 60px;
+    font-weight: 700;
+    color: rgb(32, 26, 26);
+    word-spacing: 5px;
+}
+
+
+.moving_page
+{
+    margin-top: 100px;
+    margin-left: 300px;
+}
+.background_banner h1
+{
+    margin-left: 350px;
+    margin-top: -180px;
+}
+
+}
+@media all and (min-width:750px) and (max-width:1000px){
+
+    .background_banner h1
+    {
+        margin-left: 330px;
+        margin-top: -180px;
+    }
+    .moving_page
+{
+    margin-left:250px;
+}
+}

@@ -1,0 +1,168 @@
+@font-face {
+    font-family:AAkayaTelivigalaRegular;
+        src: url(font/AkayaTelivigalaRegular.ttf);
+    }
+    @font-face {
+        font-family: WonderbarDemo;
+        src: url(font/WonderbarDemo.otf);
+    }
+.background_banner
+{
+    height: 100%;
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+.background_banner img
+{
+    height: 300px;
+    width: 100%;
+    margin-top: 60px;
+}
+.contact_name
+{
+    margin-top: -180px;
+    position: absolute;
+    margin-left: 800px;
+}
+.contact_name h1
+{
+    font-size: 2.5rem;
+    text-align: center;
+    color:palevioletred;
+    font-weight: 500;
+}
+.contact_banner
+{
+    height: 100%;
+    width: 60%;
+    margin: auto;
+    position: relative;
+}
+.contact_banner img
+{
+    height: 900px;
+    width: 100%;
+    margin-top: 60px;
+}
+.form_design
+{
+    position: absolute;
+    margin-top: -850px;
+    margin-left: 550px;
+    font-family:AAkayaTelivigalaRegular;
+}
+.form_design h4
+{
+    font-family: WonderbarDemo;
+    font-size: 1rem;
+    color: gray;
+}
+.contact_banner img
+ {
+    opacity: 0.2;
+  }
+  input[type="text"]
+{
+    height: 30px;
+    width: 80%;
+    font-family:AAkayaTelivigalaRegular;
+    font-size: 1.1rem;
+    margin-top: 20px;
+}
+
+  input[type="number"]
+{
+    font-family:AAkayaTelivigalaRegular;
+    width: 80%;
+    height: 30px;
+    font-size: 1.1rem;
+}
+
+  select[name="area"]
+{
+    width: 80%;
+    height: 30px;
+    font-family:AAkayaTelivigalaRegular;
+    font-size: 1.1rem;
+}
+  input[type="date"] 
+{
+    width: 80%;
+    height: 30px;
+    font-family:AAkayaTelivigalaRegular;
+    font-size: 1.1rem;
+}
+input[type="checkbox"]
+{
+    font-family:AAkayaTelivigalaRegular;
+    color: aqua;
+}
+.head_office
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 150px;
+    gap: 50px;
+   
+}
+.head_pic img
+{
+   height: 300px;
+   width: 350px;
+   margin-left: 150px;
+}
+.head_add
+{
+height: 300px;
+width: 400px;
+margin-left: 250px;
+
+}
+.head_office .head_add p
+{
+   font-size: 1.2rem;
+   font-weight: 600;
+   font-family:AAkayaTelivigalaRegular;
+   margin-left: 40px;
+}
+.head_add h6
+{
+    font-size: 1.5rem;
+    margin-left: 100px;
+    margin-top: -40px;
+    font-family: WonderbarDemo;
+    color: teal;
+}
+.moving_page {
+    margin-top: 100px;
+    margin-left: 40%;
+}
+@media all and (max-width:500px)
+{
+    .head_office
+    {
+        margin-left: -120px;
+    }
+    
+.contact_banner
+{
+    height: 100%;
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+.contact_banner img
+{
+    height: 900px;
+    width: 100%;
+    margin-top: 60px;
+}
+.form_design
+{
+    position: absolute;
+    margin-top: -850px;
+    margin-left: 450px;
+    font-family:AAkayaTelivigalaRegular;
+}
+}

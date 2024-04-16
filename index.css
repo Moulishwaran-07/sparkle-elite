@@ -1,0 +1,274 @@
+@font-face {
+    font-family: TheyPerished;
+    src: url(font/TheyPerished.ttf);
+}
+@font-face {
+    font-family: GraduateRegular;
+    src: url(font/GraduateRegular.ttf);
+}
+.home_page {
+    margin-top: 70px;
+}
+
+.home_page h1 {
+    font-size: 1.5rem;
+    text-align: center;
+    color: rgb(244, 172, 78);
+    font-weight: 500;
+    font-family: TheyPerished;
+}
+
+.home_page p {
+    text-align: center;
+    font-size: 1.3rem;
+    margin-top: 30px;
+    font-weight: 500;
+}
+
+.design {
+    width: 80%;
+    height: 500px;
+    background-color: white;
+    margin: auto;
+    position: relative;
+    margin-top: 100px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.design img {
+    height: 500px;
+    width: 370px;
+    position: absolute;
+    margin-left: 845px;
+}
+
+.design h2 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-top: 60px;
+    margin-left: 20px;
+color: red;
+font-family: GraduateRegular;
+}
+
+.design p {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-left: 20px;
+    margin-top: 30px;
+    text-align: justify;
+
+}
+
+
+.design1 {
+    width: 80%;
+    height: 500px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    margin: auto;
+    position: relative;
+    margin-top: 100px;
+}
+
+.design1 img {
+    height: 500px;
+    width: 370px;
+    position: absolute;
+    margin-left: 845px;
+}
+
+.design1 h2 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-left: 20px;
+    color: red;
+    font-family: GraduateRegular;
+}
+
+.design1 p {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-left: 20px;
+    margin-top: 30px;
+    text-align: justify;
+}
+
+.design2 {
+    width: 80%;
+    height: 500px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    margin: auto;
+    position: relative;
+    margin-top: 100px;
+}
+
+.design2 img {
+    height: 500px;
+    width: 370px;
+    position: absolute;
+    margin-left: 845px;
+}
+
+.design2 h2 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-left: 20px;
+    color: red;
+    font-family: GraduateRegular;
+}
+
+.design2 p {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-left: 20px;
+    margin-top: 30px;
+    text-align: justify;
+
+}
+
+.workshop_title h3 {
+    text-align: center;
+    margin-top: 100px;
+    color: chocolate;
+    font-family: TheyPerished;
+}
+
+.workshop {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 90px;
+
+}
+
+.workshop .event1 img {
+    height: 300px;
+    width: 400px;
+    margin-left: 50px;
+}
+
+.workshop .event2 img {
+    height: 300px;
+    width: 400px;
+    margin-left: 60px;
+}
+
+.workshop .event3 img {
+    height: 300px;
+    width: 400px;
+    margin-left: 50px;
+}
+
+.event1 button {
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.event1 a {
+    color: black;
+    text-decoration: none;
+}
+
+.event2 button {
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.event2 a {
+    color: black;
+    text-decoration: none;
+}
+
+.event3 button {
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.event3 a {
+    color: black;
+    text-decoration: none;
+}
+
+.moving_page {
+    margin-top: 100px;
+    margin-left: 40%;
+}
+
+@media all and (min-width:750px) and (max-width:1000px){
+
+    
+.design {
+    width: 80%;
+    height: 700px;
+    margin-top: 700px;
+}
+
+.design img {
+    height: 500px;
+    width: 470px;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: -600px;
+}
+    
+.design1 {
+    width: 80%;
+    height: 700px;
+    margin-top: 700px;
+}
+
+.design1 img {
+    height: 500px;
+    width: 470px;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: -600px;
+}
+.design2 {
+    width: 80%;
+    height: 700px;
+    margin-top: 700px;
+}
+
+.design2 img {
+    height: 500px;
+    width: 470px;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: -600px;
+}
+
+.workshop {
+    display: grid;
+    grid-template-columns: 1fr;
+  
+
+}
+
+.workshop .event1 img {
+    height: 300px;
+    width: 400px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.workshop .event2 img {
+    height: 300px;
+    width: 400px;
+    margin-left: 50px;
+    margin-top: 90px;
+}
+.workshop .event3 img {
+    height: 300px;
+    width: 400px;
+    margin-left: 50px;
+    margin-top: 90px;
+}
+
+.moving_page
+{
+    margin-left:250px;
+}
+}
